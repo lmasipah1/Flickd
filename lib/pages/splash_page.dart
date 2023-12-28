@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flickd/models/app_config.dart';
 import 'package:flickd/services/http_services.dart';
+import 'package:flickd/services/movie_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
@@ -30,6 +31,10 @@ class _SplashPageState extends State<SplashPage> {
 
     getIt.registerSingleton<HttpServices>(
       HttpServices(),
+    );
+
+    getIt.registerSingleton<MovieService>(
+      MovieService(),
     );
   }
 
