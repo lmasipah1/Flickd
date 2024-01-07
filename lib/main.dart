@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 //pages
-import 'package:flickd/pages/splash_page.dart';
-import 'package:flickd/pages/main_page.dart';
+import '../pages/splash_page.dart';
+import '../pages/main_page.dart';
 
 void main() {
   runApp(
