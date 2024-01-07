@@ -1,6 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flickd/models/app_config.dart';
 import 'package:get_it/get_it.dart';
+
+//models
+import 'package:flickd/models/app_config.dart';
 
 class HttpServices {
   final Dio dio = Dio();

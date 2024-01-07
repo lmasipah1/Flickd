@@ -1,10 +1,16 @@
 import 'dart:convert';
-import 'package:flickd/models/app_config.dart';
-import 'package:flickd/services/http_services.dart';
-import 'package:flickd/services/movie_service.dart';
+
+//packages
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
+
+//services
+import 'package:flickd/services/http_services.dart';
+import 'package:flickd/services/movie_service.dart';
+
+//models
+import 'package:flickd/models/app_config.dart';
 
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;
